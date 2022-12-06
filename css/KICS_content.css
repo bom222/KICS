@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+*::after{clear: both;}
+.mt10{margin-top: 10px !important;}
+.mt20{margin-top: 20px !important;}
+.mt30{margin-top: 30px !important;}
+.mt40{margin-top: 40px !important;}
+
+
+.fr{float: right !important;}
+.fl{float: left !important;}
+.flex{display: flex; align-items: center;}
+.cb::after{content: ""; display: block; clear: both;}
+
+
+.bg1{background: #f7f8fa;}
+.bg2{background: #e5eef5;}
+.bg3{background: #e9eef2;}
+.blind{text-indent: -9999px;} 
+.default_content_box{ padding: 30px 250px;}
+.layout{margin-top: 20px; display:flex; align-items:flex-start;}
+.layout>*{ height: auto;}
+.layout_col{flex-grow:1;padding: 20px;margin:0;-moz-box-sizing:border-box;box-sizing:border-box;vertical-align:top;width:50%;border-radius: 7px;}
+/* .layout_col:first-child{padding-left:0 !important;}
+.layout_col:last-child{padding-right:0 !important;} */
+.layout_col + .layout_col{margin-left: 10px;}
+
+.inner_content{height: auto;}
+
+
+
+
+.tit_box, .menu_box{margin: 20px 0;}
+.tit_box::after{content: ""; display: block; clear: both;}
+.tit_box .fr{margin-left: auto; display: flex; color: #5b5b5b; font-weight: 500;}
+.tit_box .fr>*{padding: 0 4px;}
+.tit_box .fr>*:last-child{padding-right: 0;}
+*>:first-child{margin-top: 0;}
+
+
+
+/* .con_box{}
+.tab_box{}
+.grd_box{} */
+
+
+input{border: 1px solid #dadada; padding: 5px 10px; width: auto; box-sizing: border-box; border-radius: 5px; text-align: center;}
+input.name{width: 80px;}
+input.ju{width: 150px;}
+input.text{width: 220px;}
+input.calender{width: 120px;}
+
+button{background: #3f91f7; width: 30px; height: 30px; border: none; border-radius: 5px;}
+
+.main_contents_box{margin-top: 20px; width: 100%; height: 100%; background: #e9eef2; padding: 30px; border-radius: 10px; box-sizing: border-box;}
+.main_contents_box .main_box_content{width: 100%; height: auto; background: #fff; padding: 20px; box-sizing: border-box;}
+
+
+
+
+
+
+
+
+
+/* .btn_sch::after{content: "";display: block; background: url(../src/ico_sch.png) no-repeat 0 0; width: 100%; height: 100%;} */
